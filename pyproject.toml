@@ -1,0 +1,14 @@
+[build-system]
+requires = ["scikit-build-core", "pybind11"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "hw1_mac"
+version = "0.0.1"
+description = "биндинг для MAC "
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{ name = "Smirnov Daniil", email = "smirnov.dd@phystech.edu" }]
+
+[tool.scikit-build]
+cmake.build-type = "Release"
